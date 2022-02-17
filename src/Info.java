@@ -9,6 +9,8 @@ import java.util.List;
 
 public class Info {
 
+
+
      public List<Integer> listOfPorts = new ArrayList<>();
     public List<String> listOfGateways = new ArrayList<>();
 
