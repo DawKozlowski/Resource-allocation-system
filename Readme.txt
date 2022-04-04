@@ -66,5 +66,3 @@ Implementacja węzłow pozwalająca na ułożenie ich w dowolnej topologi.
 Węzły nie zapamietują dla jakich klientów zaalokowały zasoby.
 Scenariusz w którym węzeł utwrzony jako pierwszy musi przesłać dalej komunikat MISSING działa nieprawidłowo i wysyła komunikat FAILED.
 W przypadku kiedy mamy więcej niż dwa węzły podczas alokacji zasbów węzły pośredniczące w operacji wykonują alokacje ale o tym nie informują przez co Klient może nie otrzymać pełnego raportu.
-W niektórych przypadkach z niewiadomych przyczyn próba rozesłania komunikatu ALLGOOD może wygenerowac wyjątek.
- 
