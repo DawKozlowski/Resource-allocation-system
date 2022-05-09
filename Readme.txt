@@ -61,8 +61,3 @@ Implementacja funkcjonalności pozwalającej na alokacje zasobów o ile to możl
 Implementacja funkcjonalnosci pozwalającej na alokacje w dowolnym węźle.
 Implementacja własnego protokołu komunikacji opartego o TCP służącej do komunikacji pomiędzy węzłami.
 Implementacja węzłow pozwalająca na ułożenie ich w dowolnej topologi.
-
-4.Co nie dziala
-Węzły nie zapamietują dla jakich klientów zaalokowały zasoby.
-Scenariusz w którym węzeł utwrzony jako pierwszy musi przesłać dalej komunikat MISSING działa nieprawidłowo i wysyła komunikat FAILED.
-W przypadku kiedy mamy więcej niż dwa węzły podczas alokacji zasbów węzły pośredniczące w operacji wykonują alokacje ale o tym nie informują przez co Klient może nie otrzymać pełnego raportu.
