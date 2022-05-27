@@ -1,4 +1,4 @@
-# Szczegółowy opis implementacji
+1. Opis implementacji
 Protokuł komunikacji pomiędzy węzłami został oparty o protokół TCP.
 Zawiera on 5 rodzaji komunikatów
 
